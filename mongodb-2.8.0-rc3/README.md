@@ -21,3 +21,9 @@ This repository contains **Dockerfile** of [mongodb](http://www.mongodb.org/) 2.
 ### Usage
 
     docker run -it davidau/mongo:2.8.0-rc3 /bin/bash
+    root@bff709b3b521:/# mongod --fork --syslog
+    root@bff709b3b521:/# mongo
+
+### Docker Repository
+
+You can find the built image on this Docker Hub Registry repository: https://registry.hub.docker.com/u/davidau/mongo/
